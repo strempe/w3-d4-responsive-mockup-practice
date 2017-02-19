@@ -10,7 +10,7 @@ img {
 .lg-primary {
         display: none;
         margin:0;
-    }
+}
 
 .navbar .lg-primary img {   
     width: 175px;
@@ -198,6 +198,32 @@ img {
 
 
 
+/*small devices*/
+
+@media (max-width: 450px) {
+    .section-heading h3 {
+        font-size: 15px;
+    }
+    .section-heading h1{
+        font-size: 24px;
+    }
+    .btn-section a {
+        width: 100px;
+    }
+    .btn-section a:hover {
+        width: 100px;
+    }
+    .lwr-heading h1 {
+        font-size: 18px;
+    }
+    .lwr-p p {
+        font-size: 15px;
+    }
+    .lwr-text p {
+        font-size: 12px;
+    }
+}
+
 /*Medium devices (tablets, 768px and up)*/
 
 @media all and (min-width: 768px) {
@@ -213,7 +239,7 @@ img {
     }
     .navbar-black {
     display: block;
-}
+    }
     .three-point-el {
         display: block;
     }
@@ -271,5 +297,4 @@ img {
     .lwr-p p {
         margin-top: -80px;
     }
-
 }
